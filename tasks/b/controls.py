@@ -21,3 +21,17 @@ s = get_string()
 print(x, y, s)
 
 # Место для вашего кода
+print(abs(x-y)-1)
+i=0
+k=0
+while x != 1:
+    if (x % 2) == 0: x=x/2
+    else: x=3*x+1
+    i=i+1
+print(i)
+f=[i for i in s]
+print(f)
+g=['a', 'e', 'i', 'o', 'u']
+for i in f:
+    if i in g: k+=1
+print(k)
