@@ -37,7 +37,7 @@ print(a)
 # Место для вашего кода
 if len(a) % 2 == 1:
    g=a[int(len(a)//2)]
-else: g=a[int(len(a)//2)-1]
+else: g=a[int(len(a)//2)]
 print(a[0], g, a[-1])
 print(min(a),max(a))
 print(sum(a))
