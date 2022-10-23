@@ -35,7 +35,10 @@ for i in range(n):
    if (i % 2) == 0: v.append(k)
 print(a)
 # Место для вашего кода
-print(a[0], a[int(len(a)/2)], a[-1])
+if len(a) % 2 == 1:
+   g=a[int(len(a)/2)]
+else: g=a[int(1+len(a)//2)]
+print(a[0], g, a[-1])
 print(min(a),max(a))
 print(sum(a))
 print(b)
