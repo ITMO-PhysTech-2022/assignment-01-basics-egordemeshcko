@@ -33,4 +33,4 @@ f=[i for i in s]
 g=['a', 'e', 'i', 'o', 'u']
 for i in f:
     if i in g: k+=1
-print(k+3)
+print(k)

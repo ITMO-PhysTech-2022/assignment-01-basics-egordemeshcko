@@ -40,4 +40,6 @@ print(h)
 for n in range(len(s2)):
     if (s2[(n-1):(n+(len(s1))-1)]) == s1:
         print(n-1)
+        k=1
         break
+if k != 1: print(-1)
