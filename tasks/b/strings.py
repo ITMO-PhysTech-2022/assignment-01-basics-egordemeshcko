@@ -33,7 +33,10 @@ else:
             print(s1,s2[:s2.index(' ')])
         else:
             print(s1,s2)
-print(len(s1))
+h=1
+for i in range(len(s1)):
+    if s1[i-1] == ' ': h=1+h
+print(h)
 for n in range(len(s2)):
     if (s2[(n-1):(n+(len(s1))-1)]) == s1:
         print(n-1)
