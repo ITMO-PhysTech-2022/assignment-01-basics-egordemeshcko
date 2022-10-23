@@ -28,7 +28,7 @@ a = ...
 a=[]
 b=[]
 v=[]
-for i in range(n):
+for i in range(6):
    k = get_integer()
    a.append(k)
    if (k % 2) == 0: b.append(k**2)
@@ -36,8 +36,8 @@ for i in range(n):
 print(a)
 # Место для вашего кода
 if len(a) % 2 == 1:
-   g=a[int(len(a)/2)]
-else: g=a[int(1+len(a)//2)]
+   g=a[int(len(a)//2)]
+else: g=a[int(len(a)//2)-1]
 print(a[0], g, a[-1])
 print(min(a),max(a))
 print(sum(a))
