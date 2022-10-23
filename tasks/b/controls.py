@@ -30,7 +30,7 @@ while x != 1:
     i=i+1
 print(i)
 f=[i for i in s]
-g=['a', 'e', 'i', 'o', 'u']
+g=['a', 'e', 'i', 'o', 'u', 'y']
 for i in f:
     if i in g: k+=1
 print(k)
