@@ -15,8 +15,8 @@
 int_var=4
 float_var=(67**(1/2))
 str_var=('#just_a_hashtag')
-p1=int_var*float_var
-p2=int_var*str_var
-p3=int(float_var)*str_var
-p4=int_var*int(float_var)*str_var
+p1=int_var * float_var
+p2=int_var * int_var
+p3=int_var * str_var
+p4=float_var * float_var
 print(p1, p2, p3, p4, sep='\n')
