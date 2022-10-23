@@ -21,7 +21,7 @@ s1=input()
 s2=input()
 print(len(s1)*len(s2))
 print(s1, s2)
-print(s1+',\n'+s2)
+print(s1+',',s2)
 print('Hello,',s1+'! Just wanted to say: '"'"+s2+"'")
 if ' ' in s1 and ' ' in s2:
     print(s1[:s1.index(' ')],s2[:s2.index(' ')])
