@@ -29,7 +29,6 @@ y = get_integer()
 z = get_float()
 
 print(x, y, z)  # вывести три числа через пробел
-
 # Место для вашего кода
 print(x+y+z)
 print(x*y*z)
