@@ -39,6 +39,6 @@ print(x/z)
 print(x//z)
 print(x%y)
 print(y**z)
-print(((x+y)*(y+z)*(x+z))**3)
+print(((x+ y)*(y+z)*(x+z))**3)
 print(f'{z:.5f}')
 FLOATS = 6
