@@ -36,7 +36,7 @@ for i in range(n):
 print(a)
 # Место для вашего кода
 print(a[0], a[int(1+len(a)/2)], a[-1])
-print(max(a),min(a))
+print(min(a),max(a))
 print(sum(a))
 print(b)
 print(a.index(min(a)))
