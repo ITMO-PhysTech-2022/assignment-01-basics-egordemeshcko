@@ -17,6 +17,7 @@ s1 = ...
 s2 = ...
 
 # Место для вашего кода
+k=2
 s1=input()
 s2=input()
 print(len(s1)*len(s2))
